@@ -1,0 +1,5 @@
+{
+  "default": true, // Enable all default rules
+  "MD003": { "style": "atx" }, // Header style
+  "MD013": false, // Line length
+}

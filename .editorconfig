@@ -1,0 +1,27 @@
+root = true # top-most EditorConfig file
+# https://EditorConfig.org
+
+# every file
+[*]
+end_of_line = lf # Unix-style newlines
+insert_final_newline = true # Newline at end of file
+charset = utf-8 # UTF-8 encoding
+trim_trailing_whitespace = true # No trailing whitespace
+indent_size = 2 # 2 spaces for indentation
+indent_style = space # Spaces for indentation
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false # No trailing whitespace
+
+# # TypeScript and JavaScript files
+# [*.{ts,js}]
+
+# # JSON files
+# [*.json]
+
+# # YAML files
+# [*.{yml,yaml}]
+
+# # package.json
+# [package.json]
